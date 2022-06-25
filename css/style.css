@@ -1,53 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #ccc; 
+    background-color: #ccc;
     margin: 0;
 
 }
-.h-container{
+
+.h-container {
     background-image: url(../img/bg-3.jpg);
     height: 500px;
-   background-position: right center;
+    background-position: right center;
     background-size: cover;
 }
-.title{
+
+.title {
     text-align: center;
     color: white;
     margin-top: 150px;
 }
-.title h1{
+
+.title h1 {
     font-size: 4em;
     text-transform: uppercase;
-    text-shadow: 2px 2px 3px #333;    
+    text-shadow: 2px 2px 3px #333;
 }
-.header{
+
+.ul-menu li {
+    display: inline-block;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    position: relative;
+    left: 950px;
+    padding: 4px;
+    border: solid 2px white;
+    background-color:rgba(0,0,0,0.3);
+    opacity: 0.5;
+}
+.ul-menu li:hover{
+    opacity: 1;
+    transition: 2s;
+ 
     
 }
-main{
+
+
+.ul-menu li, a {
+    text-decoration: none;
+    color: white;
+    box-shadow: 2px 2px 3px solid white;
+}
+.header {
+    color: white;
+    font-size: 28px;
+    
+   
+}
+
+main {
     width: 80%;
     margin: auto;
 }
-.s-content{
+
+.s-content {
     background-color: white;
     padding: 15px;
     margin-top: 15px;
 }
-.card{
+
+.card {
     display: inline-block;
     margin-left: 25px;
     box-sizing: border-box;
-  
-    
-    
+
+
+
 }
-.artigo{
+
+.artigo {
     background-color: rgb(219, 218, 218);
     padding: 2px;
 }
-.roda-pe{
+
+.roda-pe {
+    height: 80px;
     text-align: center;
-    background-color: #6d747c ;
-    padding: 10px;margin-top: 15px;
+    background-color: #6d747c;
+    padding: 10px;
+    margin-top: 15px;
     color: white;
+    line-height: 80px;
 }
